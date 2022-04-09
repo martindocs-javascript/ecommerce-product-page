@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="header-container">
+      <div class="header-menu">
+        <img class="logo" src="./svg/logo.svg" alt="logo" />
+        <ul>
+          <li>Collections<span class="menu-underline"></span></li>
+          <li>Men<span class="menu-underline"></span></li>
+          <li>Women<span class="menu-underline"></span></li>
+          <li>About<span class="menu-underline"></span></li>
+          <li>Contact<span class="menu-underline"></span></li>
+        </ul>
+      </div>
+      
+      <div class="cart-container">
+        <div class="cart-icon"></div>
+        <div class="cart-itemsIn"></div>
+        <img class="cart-avatar" src="./img/image-avatar.png" alt="image-avatar">
+      </div>
+    </div>  
+
+    <div class="cart-window-container" style="visibility:hidden"> <!--style="visibility:hidden" -->
+      <div class="cart-title">Cart</div>
+      <div class="cart-content">
+        <p class="empty-cart">Your cart is empty.</p>
+        <div class="cart-product-container">        
+          <div class="product-info">
+            <img src="" />          
+            <div class="product-price-summary">
+              <div class="product-title"></div>
+              <div class="product-finial-payment">                                
+              </div>
+            </div>
+            <div class="cart-bin"></div>
+          </div>          
+          <input type="submit" value="Checkout" />
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="gallery-container">    
+        <img class="current-img" src="./img/image-product-1.jpg" alt="">
+        <div class="thumbnails">
+          <div class="selected"><img src="./img/image-product-1-thumbnail.jpg" /></div> 
+          <div><img src="./img/image-product-2-thumbnail.jpg" /></div>
+          <div><img src="./img/image-product-3-thumbnail.jpg" /></div>
+          <div><img src="./img/image-product-4-thumbnail.jpg" /></div>
+        </div>
+      </div>
+    
+      <div class="product-desc-container">
+        <div class="product-desc">
+          <h1>SNEAKER COMPANY</h1>
+          <h2>Fall Limited Edition Sneakers</h2>
+          <p>
+            These low-profile sneakers are your perfect casual wear companion. Featuring a 
+            durable rubber outer sole, they’ll withstand everything the weather can offer.
+          </p>
+        </div>      
+        <div class="price-container">
+          <div class="price">£125.00</div>
+          <div class="discount">50%</div>
+          <div class="price-before">£250.00</div>
+        </div>
+        <div class="product-container">
+          <div class="qty-container">
+            <div class="minus"></div>
+            <div class="amount">0</div>
+            <div class="plus"></div>
+          </div>
+          <div class="button">
+            <div class="add-to-cart-icon"></div>
+            <p>Add to cart</p>
+          </div>
+        </div>
+      </div>  
+    </div>    
+  </div>  
+
+  <div class="lightbox-container">  
+    <div class="modal-container">
+
+    <div class="close-container">      
+     <div class="close-lightbox"></div>
+    </div>      
+    
+      <div class="lightbox-modal">      
+        <div class="lightbox-controls">
+          <div class="button-lightbox">
+            <div class="prev-container"></div>
+          </div>
+          <div class="button-lightbox">
+            <div class="next-container"></div>
+          </div>
+        </div>   
+        <img class="current-img" src="" alt="">   
+      </div>
+      
+    
+
+    <div class="lightbox-thumbnails"></div>
+    </div>
+  </div>
+
+    <!-- <img style="display: flex; margin: 0 auto; max-width: 100%; height: auto;" src="../design/active-states-basket-filled.jpg" alt=""> -->
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>  -->
+  <script src="./js/main.js"></script>
+</body>
+</html>
