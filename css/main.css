@@ -65,6 +65,7 @@ span.menu-underline{
 }
 .header-container ul li:hover{
     cursor: pointer;
+    color:hsl(0, 0%, 0%);
 }
 .cart-container{
     display: flex;
