@@ -1,6 +1,6 @@
 # E-commerce product page, Solution
 
-This is a solution to the [E-commerce product page on Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6/hub/ecommerce-product-page-BJbl3X6f9).
+Welcome to the E-commerce Product Page designed for an engaging shopping experience. This project offers a comprehensive solution to the challenge, ensuring seamless navigation and dynamic features.
 
 ## Features
 - Add items to the cart
@@ -22,9 +22,9 @@ This is a solution to the [E-commerce product page on Frontend Mentor](https://w
 ```
 
 ## Screenshot
-![Main Page](./img/ecommerce-product-page01.png)
-![Lightbox](./img/ecommerce-product-page02.png)
-![Cart](./img/ecommerce-product-page03.png)
+![Main Page](./assets/img/ecommerce-product-page01.png)
+![Lightbox](./assets/img/ecommerce-product-page02.png)
+![Cart](./assets/img/ecommerce-product-page03.png)
 
 ## Contributing
 
@@ -35,6 +35,10 @@ Pull requests are much appreciated and accepted.
 3. <a href='https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository'>**Commit**</a> changes to <a href='https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell'>**development branch**</a>.
 4. <a href='https://help.github.com/articles/pushing-to-a-remote/'>**Push**</a> your work back up to your fork.
 5. Submit a <a href='https://help.github.com/articles/about-pull-requests/'>**Pull request**</a> so that i can review your changes
+
+## Credits
+
+This is a solution to the [E-commerce product page on Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6/hub/ecommerce-product-page-BJbl3X6f9).
 
 ## License
 
